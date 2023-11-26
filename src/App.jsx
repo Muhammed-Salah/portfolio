@@ -14,23 +14,20 @@ function App() {
   const isDesktop = useMediaQuery({ query: '(min-width: 1024px)' });
 
   return (
-    <div className='flex text-neutral-300 bg-primary'>
-      { isDesktop ? 
-        <div className='fixed bg-teritiary w-72 h-full p-4'>
-          <Sidebar />
-        </div> : <div className='fixed bg-teritiary w-full'>
-          <Navbar />
-        </div>
-      }
-       <div className='flex-auto mt-20 lg:mt-0 lg:ml-72 bg-blue-gradient bg-cover'>
-         <Routes>
-           <Route path='/' element={<Home />} />
-           <Route path='/home' element={<About />} />
-           <Route path='/projects' element={<Projects />} />
-           <Route path='/contact' element={<Contact />} />
-           <Route path='/*' element={<Error404 />} />
-         </Routes>
-       </div>
+    <div className='flex text-neutral-300 relative overflow-hidden'>
+      <div className='fixed bg-primary z-20 md:w-72 lg:h-full'>
+        {isDesktop ? <Sidebar className='p-4'/> : <Navbar className='fixed w-full'/>}
+      </div>
+      <div className='flex-auto mt-20 lg:mt-0 lg:ml-72 relative z-10'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<About />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/*' element={<Error404 />} />
+        </Routes>
+      </div>
+      <div className="bg-blue-gradient bg-cover fixed inset-0 z-0"></div>
     </div>
   )
 }
