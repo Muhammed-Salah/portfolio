@@ -22,7 +22,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/*' element={<Home />} />
+          <Route path='/*' element={<Error404 />} />
         </Routes>
       </div>
       {/* <div className="bg-blue-gradient bg-cover fixed inset-0 z-0"></div> */}
