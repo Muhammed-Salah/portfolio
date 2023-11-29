@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import pic from '../assets/squarePic.jpg'
+import pic from '/assets/squarePic.jpg'
 import NavList from './components/NavList'
 import { Icon } from '@iconify/react';
 

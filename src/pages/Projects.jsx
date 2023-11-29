@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ViewProject from './components/projects/ViewProject';
 import Footer from '../layout/Footer';
-import projects from './ProjectsData';
+import projects from './projects.json';
 
 const ProjectThumbnail = ({ project, openModal }) => (
   <div

@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from '../assets/squarePic.jpg'
+import pic from '/assets/squarePic.jpg'
 import NavList from './components/NavList'
 
 const Sidebar = () => {

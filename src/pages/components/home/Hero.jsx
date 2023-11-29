@@ -1,5 +1,5 @@
 import React from 'react';
-import fullsizepic from '../../../assets/nobgpic.png';
+import fullsizepic from '/assets/nobgpic.png';
 import { Icon } from '@iconify/react';
 
 const Hero = ({ isDesktop }) => {

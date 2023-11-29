@@ -1,4 +1,5 @@
 import React from 'react';
+import pic from '/assets/Half pic.jpg';
 
 const AboutMe = () => {
     return (
@@ -23,7 +24,7 @@ const AboutMe = () => {
 
             <div className="sm:w-2/5 sm:flex">
                 <img
-                    src="/src/assets/Half pic.jpg"
+                    src={pic}
                     alt="Your Name"
                     className="w-72 h-96 object-cover rounded-md m-auto"
                 />
