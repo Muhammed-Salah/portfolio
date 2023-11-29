@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "name": "Project 1",
+        "description": "A description for Project 1.",
+        "category": "Web Development",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg",
+        "github": "link",
+        "website": "link" 
+    },
+    {
+        "id": 2,
+        "name": "Project 2",
+        "description": "A description for Project 2.",
+        "category": "Graphic Designing",
+        "imagePath": "/src/assets/projects/1697300088210.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Project 3",
+        "description": "A description for Project 3.",
+        "imagePath": "/src/assets/projects/1697300093995.jpeg",
+        "category": "Web Development"
+    },
+    {
+        "id": 4,
+        "name": "Project 4",
+        "description": "A description for Project 4.",
+        "imagePath": "/src/assets/projects/office.jpg",
+        "category": "Graphic Designing"
+    },
+    {
+        "id": 5,
+        "name": "Project 5",
+        "description": "A description for Project 5.",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg",
+        "category": "Web Development"
+    },
+    {
+        "id": 6,
+        "name": "Project 6",
+        "description": "A description for Project 6.",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg",
+        "category": "Graphic Designing"
+    },
+    {
+        "id": 7,
+        "name": "Project 7",
+        "description": "A description for Project 7.",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg",
+        "category": "Web Development"
+    },
+    {
+        "id": 8,
+        "name": "Project 1",
+        "description": "A description for Project 1.",
+        "category": "Web Development",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Project 2",
+        "description": "A description for Project 2.",
+        "category": "Graphic Designing",
+        "imagePath": "/src/assets/projects/1697300088210.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Project 3",
+        "description": "A description for Project 3.",
+        "imagePath": "/src/assets/projects/1697300093995.jpeg",
+        "category": "Web Development"
+    },
+    {
+        "id": 11,
+        "name": "Project 4",
+        "description": "A description for Project 4.",
+        "imagePath": "/src/assets/projects/office.jpg",
+        "category": "Graphic Designing"
+    },
+    {
+        "id": 12,
+        "name": "Project 5",
+        "description": "A description for Project 5.",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg",
+        "category": "Web Development",
+        "github": "link",
+        "website": "link" 
+    },
+    {
+        "id": 13,
+        "name": "Project 6",
+        "description": "A description for Project 6.",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg",
+        "category": "Graphic Designing"
+    },
+    {
+        "id": 14,
+        "name": "Project 7",
+        "description": "A description for Project 7.",
+        "imagePath": "/src/assets/projects/1697299975536.jpeg",
+        "category": "Web Development"
+    }
+]

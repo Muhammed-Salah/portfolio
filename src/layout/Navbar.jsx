@@ -17,7 +17,7 @@ const Navbar = () => {
     };
   
     return (
-      <div className='fixed bg-primary w-full p-2 '>
+      <div className='fixed bg-primary w-full p-2'>
         <div className='relative flex items-center justify-between px-2 pb-2'>
           <img src={pic} className='w-14 rounded-full cursor-pointer p-1' alt="Profile" onClick={toggleNavList} />
           <Icon icon={'ion:menu'} className='text-3xl cursor-pointer' onClick={toggleNavList} />

@@ -1,3 +1,22 @@
 body {
     background-color: #090A1A;
+    color: #d4d4d4;
+}
+
+.text-stroke {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #d4d4d4;
+    color: transparent;
+}
+
+.linear-gradient {
+    background: linear-gradient(
+        to right,
+        rgba(9, 10, 26, 1),
+        rgba(9, 10, 26, 0),
+        rgba(9, 10, 26, 0),
+        rgba(9, 10, 26, 0),
+        rgba(9, 10, 26, 0),
+        rgba(9, 10, 26, 1)
+    );
 }
