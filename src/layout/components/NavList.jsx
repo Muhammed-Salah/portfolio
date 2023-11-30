@@ -12,12 +12,12 @@ const NavItem = ({ to, icon, label, target }) => (
 const NavList = () => {
 
     return (
-        <div className=''>
+        <>
             <NavItem to="/" icon="teenyicons:home-outline" label="Home" />
             <NavItem to="/about" icon="pajamas:at" label="About" />
             <NavItem to="/projects" icon="bi:box" label="Projects" />
             <NavItem to="https://www.linkedin.com/in/muhammed-salah-kt/" target="_blank" icon="octicon:mail-16" label="Contact" />
-        </div>
+        </>
     );
 };
   
