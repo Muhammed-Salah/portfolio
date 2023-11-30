@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Slideshow = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -55,7 +55,7 @@ const Slideshow = () => {
 
   return (
     <div className="p-10 relative">
-      <h1 className="text-5xl font-bold mb-6 text-stroke text-center">What I have done?</h1>
+      <h1 className="text-4xl sm:text-5xl font-bold mb-6 text-stroke text-center">What I have done?</h1>
       <div className="relative h-48">
         <Slider {...settings}>
           {projects.map((project) => (

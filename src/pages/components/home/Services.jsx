@@ -27,7 +27,7 @@ const Services = ({isDesktop}) => {
 
   return (
     <div className="flex flex-col items-center p-14">
-        <h1 className="text-5xl font-bold mb-6 text-stroke">What I do?</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold mb-6 text-stroke">What I do?</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {servicesData.map((service, index) => (
             <div key={index} className="p-4 text-center rounded-md shadow-md hover:bg-button-hover border-2 border-dashed border-slate-600 hover:border-slate-400 hover:scale-105 duration-300">
