@@ -37,7 +37,7 @@ const Navbar = () => {
         className='overflow-hidden transition-all duration-300 outline outline-1 outline-slate-700 rounded-lg'
         style={{ height: navListHeight }}
       >
-        <NavList onClose={closeNavList} />
+        <NavList onClose={isNavListCollapsed} />
       </div>
     </div>
   );
