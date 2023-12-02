@@ -20,7 +20,7 @@ const Skills = () => {
         <div className='p-14'>
             <div className='container mx-auto'>
                 <h1 className="text-4xl font-medium mb-6 text-center">What I use?</h1>
-                <div className="flex flex-col lg:flex-row items-center pb-14">
+                <div className="flex flex-col lg:flex-row items-center pb-14 justify-center">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
                         {categories.map((category, categoryIndex) => (
                             <div key={categoryIndex} className="p-4 text-center rounded-md shadow-md hover:bg-button-hover border-2 border-dashed border-slate-600 hover:border-slate-400 my-2">
