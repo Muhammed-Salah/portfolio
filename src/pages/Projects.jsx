@@ -53,8 +53,9 @@ const Projects = () => {
     : projects.filter(project => project.category === selectedCategory);
 
   const totalProjects = filteredProjects.length;
-  const totalPages = Math.ceil(totalProjects / itemsPerPage);
-  const currentProjects = filteredProjects.slice(startIndex, endIndex);
+  // const totalPages = Math.ceil(totalProjects / itemsPerPage);
+  // const currentProjects = filteredProjects.slice(startIndex, endIndex);
+  const currentProjects = filteredProjects;
 
   const openModal = (project) => {
     setSelectedProject(project);
@@ -66,8 +67,8 @@ const Projects = () => {
     setIsModalOpen(false);
   };
 
-  const handlePrevClick = () => setCurrentPage(currentPage - 1);
-  const handleNextClick = () => setCurrentPage(currentPage + 1);
+  // const handlePrevClick = () => setCurrentPage(currentPage - 1);
+  // const handleNextClick = () => setCurrentPage(currentPage + 1);
 
   return (
     <div className='p-4'>
@@ -103,12 +104,12 @@ const Projects = () => {
           </div>
         </div>
 
-        <Pagination
+        {/* <Pagination
           currentPage={currentPage}
           totalPages={totalPages}
           onPrevClick={handlePrevClick}
           onNextClick={handleNextClick}
-        />
+        /> */}
 
         {isModalOpen && selectedProject && (
           <ViewProject closeModal={closeModal} selectedProject={selectedProject} />
