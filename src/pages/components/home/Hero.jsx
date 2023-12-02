@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='flex flex-col md:flex-row items-center h-screen relative bg-blue-gradient bg-cover inset-0 '>
       <div className="container my-auto">
         {/* <div className="md:w-8/12"> */}
-          <h1 className='absolute font-bold hidden sm:block sm:text-[150px] md:text-[190px] lg:text-[220px] xl:text-[250px] opacity-20 z-0 left-4 top-[-30px] md:top-[-40px] select-none'>
+          <h1 className='absolute font-bold text-[23vw] opacity-20 z-0 left-4 top-12 sm:top-[-30px] md:top-[-40px] select-none'>
             HELLO
           </h1>
           <div className="flex flex-col text-left p-8 md:pt-40">
