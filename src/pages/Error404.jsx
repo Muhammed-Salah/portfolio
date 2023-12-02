@@ -4,8 +4,6 @@ const Error404 = () => {
   return (
     <div>
       Error404
-      
-      <Footer />
     </div>
   )
 }

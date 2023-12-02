@@ -54,21 +54,23 @@ const Slideshow = () => {
   };
 
   return (
-    <div className="p-10 relative">
-      <h1 className="text-4xl sm:text-5xl font-bold mb-6 text-stroke text-center">What I have done?</h1>
-      <div className="relative h-48">
-        <Slider {...settings}>
-          {projects.map((project) => (
-            <div key={project.id} className="overflow-hidden w-96 h-96 px-1">
-              <img
-                src={project.imagePath}
-                alt={`Project ${project.id}`}
-                className="h-48 w-full object-cover rounded-md"
-              />
-            </div>
-          ))}
-        </Slider>
-        <div className="absolute inset-0 linear-gradient pointer-events-none" />
+    <div className="p-14 relative">
+      <div className='container mx-auto'>
+        <h1 className="text-4xl font-medium mb-6 text-center">What I have done?</h1>
+        <div className="relative h-48">
+          <Slider {...settings}>
+            {projects.map((project) => (
+              <div key={project.id} className="overflow-hidden w-96 h-96 px-1">
+                <img
+                  src={project.imagePath}
+                  alt={`Project ${project.id}`}
+                  className="h-48 w-full object-cover rounded-md"
+                />
+              </div>
+            ))}
+          </Slider>
+          <div className="absolute inset-0 linear-gradient pointer-events-none" />
+        </div>
       </div>
     </div>
   );

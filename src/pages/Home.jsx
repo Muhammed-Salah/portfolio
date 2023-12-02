@@ -4,7 +4,6 @@ import Hero from './components/home/Hero';
 import Services from './components/home/Services';
 import Skills from './components/home/Skills';
 import Slideshow from './components/home/Slideshow';
-import Footer from '../layout/Footer';
 
 const Home = () => {
     const isDesktop = useMediaQuery({ query: '(min-width: 640px)' });
@@ -18,8 +17,6 @@ const Home = () => {
             <Skills />
             
             <Slideshow />
-
-            <Footer />
         </div>
     )
   }

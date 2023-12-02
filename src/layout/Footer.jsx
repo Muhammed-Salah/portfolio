@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="text-white p-8 mt-auto z-10">
+    <footer className="text-white p-8 z-10">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="text-center lg:text-left mb-4 lg:mb-0 lg:w-9/12">
           <p className="text-2xl font-semibold pb-4">Muhammed Salah K T</p>
@@ -15,7 +15,7 @@ const Footer = () => {
           <p className="text-sm">+917012169029 | salahpkd@gmail.com</p>
         </div>
 
-        <div className="flex flex-row lg:flex-col lg:w-3/12 lg:items-end lg:space-y-2 space-x-5">
+        <div className="flex flex-row lg:flex-col lg:items-end lg:space-y-2 space-x-5 lg:w-3/12 ">
           <Link to="/about" className='bg-button-hover hover:bg-secondary hover:text-primary rounded-full flex items-center p-2 px-4 hover:outline outline-1 outline-slate-400 duration-500 transition-transform transform-gpu hover:-rotate-12'>
             <span className='text-md sm:text-lg'>About</span>
             <Icon icon='maki:arrow' className='text-lg ml-6' />

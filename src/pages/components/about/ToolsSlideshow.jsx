@@ -9,10 +9,10 @@ const ToolsSlideshow = () => {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 6,
+        slidesToShow: 8,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 3000,
+        speed: 10000,
         autoplaySpeed: 0,
         pauseOnHover: true,
         initialSlide: 0,
@@ -23,31 +23,28 @@ const ToolsSlideshow = () => {
             {
                 breakpoint: 1350,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 7,
                     slidesToScroll: 1,
-                    infinite: true,
-                    dots: true,
                 },
             },
             {
                 breakpoint: 900,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 6,
                     slidesToScroll: 1,
-                    initialSlide: 2,
                 },
             },
             {
                 breakpoint: 700,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 5,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 495,
+                breakpoint: 450,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 },
             },
@@ -56,12 +53,12 @@ const ToolsSlideshow = () => {
 
     return (
         <div className="p-10 relative">
-            <h1 className="text-4xl sm:text-5xl font-bold mb-6 text-stroke text-center">What I Use?</h1>
+            <h1 className="text-4xl sm:text-4xl  font-medium mb-10 text-center">What I Use?</h1>
             <div className="relative h-14">
                 <Slider {...settings}>
                     {skillsData.map((tools) => (
                         <div key={tools.name} className="overflow-hidden px-1">
-                            <Icon icon={tools.icon} className='text-5xl'/>
+                            <Icon icon={tools.icon} className='text-4xl'/>
                         </div>
                     ))}
                 </Slider>

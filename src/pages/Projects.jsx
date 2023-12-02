@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ViewProject from './components/projects/ViewProject';
-import Footer from '../layout/Footer';
 import projects from './projects.json';
 
 const ProjectThumbnail = ({ project, openModal }) => (
@@ -71,9 +70,9 @@ const Projects = () => {
   const handleNextClick = () => setCurrentPage(currentPage + 1);
 
   return (
-    <>
-      <div className="p-4">
-        <h1 className="text-5xl font-bold mb-6 text-stroke text-center">What I have done?</h1>
+    <div className='p-4'>
+      <div className="container mx-auto">
+        <h1 className="text-4xl font-medium mb-6 text-center">What I have done?</h1>
 
         {/* Category filter */}
         <div className="flex justify-center mb-4">
@@ -115,8 +114,7 @@ const Projects = () => {
           <ViewProject closeModal={closeModal} selectedProject={selectedProject} />
         )}
       </div>
-      <Footer />
-    </>
+    </div>
   );
 };
 

@@ -12,8 +12,8 @@ export default {
         button: { hover: '#141639'}
       },
       backgroundImage: {
-        'blue-gradient': "url('/src/assets/background.gif')",
-        'pattern': "url('/src/assets/pattern.svg')",
+        'blue-gradient': "url('/assets/background.gif')",
+        'pattern': "url('/assets/pattern.svg')",
       }
 
     },
